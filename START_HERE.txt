@@ -1,0 +1,38 @@
+SDP BOPTEST — DEFAULT SIMULATOR + RESEARCH COLLECTOR
+
+PURPOSE
+This folder helps our advisor and teammates install and run the official
+BOPTEST v0.9.0 bestest_air single-zone model on their own Windows PC.
+This distribution DOES NOT include a dashboard or an occupancy/weather
+modification. It uses the default model and its packaged weather/schedules.
+
+1. Extract this folder from the GitHub download ZIP to a writable directory.
+2. Install Docker Desktop and enable Linux containers / WSL2.
+   https://docs.docker.com/desktop/setup/install/windows-install/
+3. Install Python 3.12 from https://www.python.org/downloads/
+   Launch Docker Desktop and wait until it is running.
+4. Double-click SETUP_FIRST.cmd. Internet and ample disk space required.
+   This downloads the official v0.9.0 release, verifies its hash, and
+   builds/starts the local Docker services. It does not run an experiment.
+5. Double-click VERIFY_INSTALL.cmd for a 3-step disposable live test.
+   Inspect verification/<timestamp>/REPORT.json for PASS + cleanup.
+6. Double-click GENERATE_DATASET.cmd to configure a NEW experiment.
+   Confirm the prompts; only type RUN if you intend to execute it.
+   The generated runs are in research/outputs/<id>_<timestamp>/.
+   Only use files if RESULT.json says PASS_COLLECTION with cleanup.
+7. After all runs finish, double-click STOP_BOPTEST.cmd.
+
+Documentation: README.md, research/README.md, research/CAPABILITIES.md.
+The local BOPTEST API is http://127.0.0.1:80 (not a public web app).
+Run only one research/verification session at a time. Keep completed run
+folders together and coordinate dev/validation/test partitions as a team.
+
+IMPORTANT
+The provided building has fixed physical occupancy behavior and one
+packaged Denver TMY weather year. Changing a label or date does not create
+different occupancy or an independent weather year. Weather/occupancy
+modifications would require separate model/resource changes and validation.
+
+This folder is a small online installer, not an offline simulator binary.
+Docker and Python must work on the recipient's device. For known limits,
+see VALIDATION.md and research/CAPABILITIES.md.

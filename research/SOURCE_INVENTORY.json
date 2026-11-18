@@ -1,0 +1,17 @@
+{
+  "source_project": "SDP_BOPTEST_Pilot",
+  "files": {
+    "stage4e/dataset.py": "61a82766bd288c157b03d7e5bebb6dba500e5790f084111521962173b185ec8f",
+    "stage4e_d2i_1_v1_0_1/collector.py": "bb206232c66aa359bda08f46b030f316eb915af4dfee0859e80d0ccc5e4b6ab3",
+    "stage4e_d2i_1_v1_0_1/live.py": "b2321089afbd27554285414c205a6b3da749b5e0636e78250f4e0f631388ede6",
+    "stage4e_d2i_1_v1_0_1/metadata.py": "c300676a77f72086354a4b83c71853e4f3ba623ce72e742848323ffeaf8105af",
+    "stage4e_d2_prep02/adapter.py": "14b1b0fc8f62b8c68dd8adbfdaaafc27ac8d9fa773146c7023006356ffc394bc",
+    "stage4e_d2_prep02/registry.py": "eb5b6fa4d2c3f7f46dac4b664eb37ab281b410d23f746c75401a2e7d6b85a4cb",
+    "stage4e_d2i_1/manifest.py": "3c51d07460a86c8f33ee33816a7c461c5136552ea1fe4d69cd33b3be766506db",
+    "stage4e_d2i_1/transport.py": "f98005e771817cd9d07b4226f2e125fedf3c4607563b9284afaebfb5a51c3bae"
+  },
+  "copied_unchanged": {
+    "stage4e/dataset.py": "research/legacy_dataset.py"
+  },
+  "collector_reuse": "Original D2 orchestration is not portable unchanged; new runner is separately versioned."
+}

@@ -1,0 +1,13 @@
+{
+  "config_id": "new_member_native_001",
+  "partition": "development",
+  "start_time": 15033600,
+  "warmup_seconds": 604800,
+  "steps": 12,
+  "step_seconds": 300,
+  "weather": "packaged_denver_tmy",
+  "occupancy": "packaged_schedule",
+  "policy": "native",
+  "cooling_setpoint_c": null,
+  "schedule": []
+}
