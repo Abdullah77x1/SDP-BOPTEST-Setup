@@ -1,0 +1,16 @@
+# Local and generated data — do not send to GitHub
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runtime/
+verification/
+research/outputs/
+research/registry/
+research/configs/
+app/stage4d/evidence/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
