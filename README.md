@@ -1,5 +1,7 @@
 # SDP — BOPTEST default simulator setup
 
+This repository installs and verifies the pinned BOPTEST environment and provides the research collector. The final dashboard, frozen model, semester records and report are in the [central COSC14 project repository](https://github.com/Abdullah77x1/SDP-BOPTEST). See the [final dashboard handoff](https://github.com/Abdullah77x1/SDP-BOPTEST/blob/main/docs/final-implementation/HANDOFF.md) for live connection and offline replay.
+
 A reproducible **local setup** for the official [BOPTEST](https://github.com/ibpsa/project1-boptest) **v0.9.0** `bestest_air` single-zone building simulator, plus a small Python research collector. Prepared for sharing the current senior-design-project simulator workflow with the course advisor and team.
 
 **This is not a modified building model or a browser-hosted simulator.** The official BOPTEST source is downloaded and checksum-verified during setup; it is *not* included in this repository. The building still uses its packaged Denver typical meteorological year and original occupancy schedule. Our files provide Windows/Docker setup, a local verification test, and Python data collection.
